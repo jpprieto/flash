@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flashcards</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="code.js"></script>
+</head>
+<body>
+<div class="buttons">
+    <button class="add">Add Flashcard</button>
+    <button class="hide">Hide/Reveal Answers</button> 
+    <button class="reset" onClick="window.location.reload()">Reset</button> 
+    <button class="begin">Create!</button> 
+        <div></div>
+    <button class="step" id="prev">Previous</button>
+    <button class="step" id="next">Next</button>
+</div><br>
+
+    <div class="apflash">
+        <input type="text" name="flashcard front" id="quest" placeholder="Front (question)" value="">
+        <input type="text" name="flashcard back" class="hideb" id="ans" placeholder="back (answer)" value=""/><br>
+    </div>
+    
+<div class="flashcard">
+    
+    <div class="front">
+    <div id="textf"></div>
+      <input type="text" name="front" placeholder="Type exact answer..."/>
+    </div>
+    
+    <div class="back">
+      <div id="textb"></div>
+    </div>
+    
+</div>
+    
+    <div id="footer">
+   <p>------------------------------------------------------------------This awesome tool was created by Juan P. Prieto.</p>
+    </div> 
+
+</body>
+</html>
