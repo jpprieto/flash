@@ -81,7 +81,7 @@ input[name=front] {
     margin-top : 40px;
 }
 
-#term {
+#textb {
   word-wrap: break-word;
   height: 300px ;
   overflow:scroll;
@@ -103,6 +103,7 @@ input[name=front] {
   line-height: 150%;
   overflow: scroll;
 }
+
 
 .apflash{
   width: 400px;
